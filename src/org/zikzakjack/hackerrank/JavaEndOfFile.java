@@ -1,6 +1,5 @@
 package org.zikzakjack.hackerrank;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class JavaEndOfFile {
