@@ -8,7 +8,9 @@ public class JavaRegex2DuplicateWords {
 
   public static void main(String[] args) {
 
-    String regex = "\\b(\\w+)(\\b\\W+\\b\\1\\b)*";
+//  hackerrank regex 
+    String regex = "(\\b\\w+\\b)(\\s+\\1\\b)+";
+//    String regex = "\\b(\\w+)(\\b\\W+\\b\\1\\b)*";
     Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
     Scanner in = new Scanner(System.in);
